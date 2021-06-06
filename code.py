@@ -87,6 +87,8 @@ def matrixProduct(matrix1, matrix2): # this takes the matrix object completely a
             for x in range(0,matrix1.dimensions):
                  string = string + " " + str(matrixProd[y*matrix1.dimensions + x])
             print(string)
+
+    print(" ")
             
 
 def main():
