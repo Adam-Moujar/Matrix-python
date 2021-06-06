@@ -28,8 +28,9 @@ class matrix:
 
 def matrixDet(matrix): # this takes a matrix grid (e.g if matrix1 is your object, you will use matrixDet(matrix1.grid) to compute matrix1 determinant) as a parameter
 
-    try: # the reason for this try and except is that there's only 1 possible error this could throw (appart from a syntax error) in which the program tries to divide by zero 
-         # if any of the middle diagonal elements are 0, in which case the determinant will always be zero so that's why i simply print out det = 0
+    try: # the reason for this try and except is that there's only 1 possible error this could throw (apart from a syntax error if your elements are nonsense) in which 
+         # the program tries to  divide by zero if any of the middle diagonal elements are 0, 
+         # in which case the determinant will always be zero so that's why i simply print out det = 0
         
         length = int(len(matrix)**0.5)
         currentPos = 0
