@@ -66,7 +66,7 @@ def matrixDet(matrix): # this takes a matrix grid (e.g if matrix1 is your object
 
     
 
-def matrixProduct(matrix1, matrix2): # this takes the matrix object completly and gives the product 
+def matrixProduct(matrix1, matrix2): # this takes the matrix object completely and gives the product 
     if(matrix1.dimensions != matrix2.dimensions):
         print("you cant do matrix product of these 2!!")
     else:
